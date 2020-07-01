@@ -58,7 +58,7 @@ hfsplus ramdisk.dmg mv sbin/reboot sbin/reboot_
 hfsplus ramdisk.dmg add exploit/exploit.sh sbin/reboot
 hfsplus ramdisk.dmg chmod 755 sbin/reboot
 hfsplus ramdisk.dmg add jb/sbpatcher32/rd_kc rd_kc 
-hfsplus ramdisk.dmg chmod rd_kc
+hfsplus ramdisk.dmg chmod 755 rd_kc
 
 xpwntool ramdisk.dmg path/to/058-75249-065.dmg -t 058-75249-065.dmg
 
