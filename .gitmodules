@@ -10,3 +10,6 @@
 [submodule "iBoot32Patcher"]
 	path = iBoot32Patcher
 	url = https://github.com/dora2-iOS/iBoot32Patcher
+[submodule "idevicerestore"]
+	path = idevicerestore
+	url = https://github.com/libimobiledevice/idevicerestore
