@@ -1,0 +1,12 @@
+[submodule "xpwn"]
+	path = xpwn
+	url = https://github.com/dora2-iOS/xpwn
+[submodule "iPwnder32"]
+	path = iPwnder32
+	url = https://github.com/dora2-iOS/iPwnder32
+[submodule "CBPatcher"]
+	path = CBPatcher
+	url = https://github.com/dora2-iOS/CBPatcher
+[submodule "iBoot32Patcher"]
+	path = iBoot32Patcher
+	url = https://github.com/dora2-iOS/iBoot32Patcher

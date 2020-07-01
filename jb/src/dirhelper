@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ -e "/etc/rc.d" ]
+then
+for file in /etc/rc.d/*
+do
+"$file"
+done
+fi
+
+if [ -e "/Library/LaunchDaemons/com.openssh.sshd.plist" ]
+then
+/bin/mv -v /Library/LaunchDaemons/com.openssh.sshd.plist /Library/LaunchDaemons/com.openssh.sshd.plist_
+fi
+
+if [ -e "/usr/sbin/sshd" ]
+then
+/usr/libexec/sshd-keygen-wrapper
+fi
+
+printf "[sakura] Done\n" > /dev/console

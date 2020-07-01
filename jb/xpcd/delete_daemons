@@ -1,0 +1,8 @@
+/* delete */
+/System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist
+/System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist
+
+/* move to /L/D/ */
+/System/Library/LaunchDaemons/com.apple.SpringBoard.plist
+/System/Library/LaunchDaemons/com.apple.mobile.lockdown.plist
+/System/Library/LaunchDaemons/com.apple.backboardd.plist
